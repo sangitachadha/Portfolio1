@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center; font-family: jokerman;">MY PORTFOLIO
+        <br> SANGITA CHADHA</h1>
+        <hr>
+        <div class="tabs">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="aboutmyself.html">About Me</a></div>
+            <div><a href="family.html">My Family</a></div>
+            <div><a href="books.html">Author</a></div>
+            <div><a href="interests.html">Interests </a></div>
+            <div><a href="trips.html">Places visited</a></div>
+            <div><a href="feedback.html">Feedback</a></div>
+        </div>
+        <hr>
+        <DIV class="content">
+            <form id="feedback_form" action="mailto:sangitachadha@gmail.com" autocomplete="on" target="_self">
+                <h1>Feedback Form</h1>
+                <label for="name">Name</label>
+                <input type="text" name="Name" id="Name"> <br> <br>
+                <label for="gender">Gender</label> <br> <br>
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="male" value="Male"> <br> <br>
+                <label for="Female">Female</label> 
+                <input type="radio" name="gender" id="female" value="Female"> <br> <br>
+                <label for="rating">Rate it (5 to 1)</label> 
+                <select name="rating">
+                    <option id="option1" name="option1" value="5">5</option>
+                    <option id="option2" name="option2" value="4">4</option>
+                    <option id="option3" name="option3" value="3">3</option>
+                    <option id="option4" name="option4" value="2">2</option>
+                    <option id="option5" name="option5" value="1">1</option>
+                </select> <br> <br>
+                <label for="suggestion">Suggestion</label>
+                <textarea maxlength="50"></textarea>
+                <input type="submit" value="SUBMIT"> </button>
+            </form>
+        </DIV>    
+</body>
+</html>

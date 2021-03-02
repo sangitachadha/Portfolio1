@@ -1,0 +1,118 @@
+body{
+    max-height: 100vh;
+    background-color: antiquewhite;
+}
+.tabs{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.tabs>div{
+    width: 14%;
+    height: 80px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    color:rgb(14, 13, 13);
+    text-align: center;
+   /* background-color: rgb(187, 185, 181);*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+    padding:10px;
+    /* border: 1px solid black; */
+    /*border-radius: 10px; */
+    line-height: 60px;
+}
+.tabs >div a
+{
+    text-decoration: none;
+    color: inherit;
+
+}
+.tabs> div:hover
+{
+    outline: solid white;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.content
+{
+    font-family: cursive;
+    font-size: 18px;
+    padding:20px;
+    margin-top: 50px;
+    float: center;
+    text-align: center; 
+}
+
+footer
+{
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    margin-top: 240px;
+    
+}
+table
+{
+    width: 70%;
+    margin-left: 10%;
+    border-spacing: 50px 10px 30px ; //cellspacing
+    padding: 10px;  //cellpadding
+}
+table img{
+    width: 320px;
+    height: 300px;
+    border-color: blue;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgb(97, 92, 92);
+    object-fit: fill;
+    transform: rotateX(20deg);
+    padding: 10px;
+
+}
+.gallery
+{
+    margin: 10px;
+    margin-bottom: 100px;
+    float: left;
+    width: auto;
+}
+.gallery img
+{
+    width: 320px;
+    height: 300px;
+    border-color: blue;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px rgb(97, 92, 92);
+    object-fit: fill;
+    transform: rotateX(20deg);
+    padding: 10px;
+}
+
+.desc{
+    text-align: center;
+    display: block;
+}
+
+.vgallery
+{
+    margin-bottom: 80px;
+    float:left;
+    margin:10px;
+    width:auto;
+}
+.vgallery video
+{
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px black;
+}
+#feedback_form
+{
+ text-align: left;
+ padding: 05px 40px;
+}
